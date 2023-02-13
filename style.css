@@ -1,0 +1,315 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;   
+    color: black;
+   
+
+}
+
+
+.main-div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;    
+    align-items: center;
+    justify-content:center;        
+    padding: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+  
+    
+}
+.main-div1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+
+
+}
+
+.main-div img{
+    width: 300px;
+    height: 120px;
+    
+}
+
+.login {
+    width: 340px;
+    height: 400px;
+    border: 1px solid rgb(245, 242, 242);
+    background: url(images/education.gif) center center no-repeat;
+    /* https://media4.giphy.com/media/BHNfhgU63qrks/giphy.gif
+    (https: //i.gifer.com/NIbp.gif) */
+    background-size: cover;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: rgba(114, 114, 244, 0.25) 0px 50px 100px -20px, rgba(219, 217, 217, 0.3) 0px 30px 60px -30px, rgba(246, 247, 248, 0.35) 0px -2px 6px 0px inset;
+    
+    
+}
+.flex-style{
+   box-shadow:3px 3px 12px 0 rgb(0 0 0 / 10%);
+    padding:70px 50px; 
+    border-radius:20px; 
+    border:1px solid #093869 
+}
+
+.img-responsive{
+    display: block;
+        max-width: 100%;
+        height: auto;
+}
+.login .form {
+    width: 100%;
+    height: 100%;
+    padding: 10px 10px;
+    
+    
+}
+
+.login .form h2 {
+    color: #444;
+    text-align: center;
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.login .form input  {
+    width: 100%;
+    height: 40px;
+    margin-top: 15px;
+    background: rgba(255, 255, 255, .5);
+    border: 1px solid rgba(11, 10, 10, 0.1);
+    padding: 0 10px;
+    color: #444;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.login .form select {
+    width: 100%;
+    height: 40px;
+    margin-top: 15px;
+    background: rgba(255, 255, 255, .5);
+    border: 1px solid rgba(11, 10, 10, 0.1);
+    padding: 0 10px;
+    color: #444;
+    border-radius: 10px;
+    font-size: 14px;
+}
+.login .form input:focus {
+    border: 1px solid rgba(109, 106, 106, 0.8);
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+    color: #444;
+}
+
+.login .form input.submit {
+    background: rgba(255, 255, 255, .9);
+    color: #444;
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.login .form input.submit:hover{
+ background-color: #FF9980
+}
+
+.socialswa {
+      width: 100px;
+      height: 50px;
+      /*background-color: #e46c0a;*/
+      border-radius: 30px 0 0 30px;
+      position: fixed;
+      left: 5px;
+      bottom: 50px;
+      z-index: 20;
+  }
+.socialswebsite {
+         width: 100px;
+            height: 50px;
+            /*background-color: #e46c0a;*/
+            border-radius: 30px 0 0 30px;
+            position: fixed;
+            right: -40px;
+            bottom: 50px;
+            z-index: 20;
+}
+.admissions{
+   
+        /* referring directly to the animation's @keyframe declaration */
+        animation: bounceIn .8s infinite 
+}
+.topper-div{
+    padding: 25px 25px 25px 25px;
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center;
+    gap:15px;
+    flex-wrap: wrap;
+   
+    border-radius: 20px;
+}
+
+.result-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+.topper-name{
+    border: 2px solid rgb(245, 243, 243);
+        border-radius: 20px;
+        padding: 10px;
+        margin-bottom: 10px;
+        background-color: #da1a91;
+        text-align: center;
+        font-weight:bolder;
+        font-size: 20px;
+        animation: gradient-shadow 3s infinite alternate ;
+}
+
+.topper-name:hover {
+    background-color:orange ;
+    color: black;
+
+}
+
+/* .outer-circle{
+    border: 1px solid rgb(245, 24, 24);
+        width: 77px;
+        height: 77px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        /* animation: spinner 10s linear infinite; 
+        
+}
+
+
+ @keyframes spinner {
+     50% {
+         transform: rotate(360deg);
+     }
+
+     100% {
+         transform: rotate(0deg);
+     }
+ } */
+
+.circle-div{
+    border: 2px solid white;
+        padding: 25px 25px 25px 25px;
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        border-radius: 20px;
+}
+.result-circle{
+   
+    border: 2px solid #093869;   
+    width: 100px;
+    height: 100px;    
+    padding-top: 6px;
+    text-align: center;
+    border: 2px solid rgb(245, 243, 243);
+    align-items: center;
+    justify-content: center;    
+    border-radius: 50%;
+    background-color: #da1a91;
+    color: #ddf103;
+    font-size: 32px;
+    font-weight: bolder;
+    line-height: 25px;
+    animation: glow .3s infinite alternate;
+
+}
+@keyframes mymove {
+    50% {
+        box-shadow: 20px 20px 10px 20px #093869;
+    }
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 0 10px -5px #0bf10e;
+    }
+
+    to {
+        box-shadow: 0 0 10px 5px #07ab0c;
+    }
+}
+
+@keyframes gradient-shadow {
+    0% {
+      
+        box-shadow: 0 0 17px 3px #C586C0, 0 0 4px 2px #C586C0;
+    }
+
+    20% {
+      
+        box-shadow: 0 0 17px 3px #0ff, 0 0 4px 2px #0ff;
+    }
+
+    40% {
+       
+        box-shadow: 0 0 17px 3px #0f0, 0 0 4px 2px #0f0;
+    }
+
+    60% {
+       
+        box-shadow: 0 0 17px 3px #ffff01, 0 0 4px 2px #ffff01;
+    }
+
+    80% {
+        
+        box-shadow: 0 0 17px 3px #f00, 0 0 4px 2px #f00;
+    }
+
+    100% {
+        
+        box-shadow: 0 0 17px 3px #C586C0, 0 0 4px 2px #C586C0;
+    }
+}
+
+ .blink {
+     animation: blinker .8s infinite;
+ }
+
+ @keyframes blinker {
+     from {
+         opacity: 1.0;
+     }
+
+     50% {
+         opacity: 0.8;
+     }
+
+     to {
+         opacity: 1.0;
+     }
+ }
