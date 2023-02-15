@@ -160,12 +160,12 @@ body {
         animation: bounceIn .8s infinite 
 }
 .topper-div{
-    padding: 25px 25px 25px 25px;
+    padding: 10px 10px 10px 10px;
     display: flex; 
     flex-direction: row; 
     align-items: center; 
     justify-content: space-evenly;
-    gap:15px;
+    gap:30px;
     flex-wrap: wrap;   
     border-radius: 20px;
 }
