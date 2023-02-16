@@ -181,13 +181,14 @@ body {
 }
 .topper-name{
     border: 2px solid rgb(245, 243, 243);
-        border-radius: 10px;
+        
+        border-radius: 10px 30px 10px 30px ;
         padding: 3px;
+        line-height: normal;
         margin-bottom: 5px;
         background-color:#521f85;
         text-align: center;
-        font-weight:bolder;
-        
+        font-weight:bolder;        
         font-size: 18px;
         animation: gradient-shadow 3s infinite alternate ;
 }
